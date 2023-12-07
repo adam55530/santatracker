@@ -1,0 +1,29 @@
+<D0CTYPE html>
+<html>
+<link rel="stylesheet" href="style8.css"></link>
+<head>
+	<title>Hunt Down Santa.org </title>
+</head>
+<body>
+<div class="hero">
+	<div class="title">
+		<h1>TRACKER</h1>
+		<div class="back-text">
+			<span>S</span>
+			<span>A</span>
+			<span>N</span>
+			<span>T</span>
+			<span>A</span>
+		
+		</div>
+	</div>
+</div></br>
+
+<h2 align="center"> Santa Claus has made his way to Perth! can you find him before he finds you?</h2>
+<script async src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCl8mmKHjUTx-8lWJpVFnj2-FgI28abSTQ&callback=console.debug&libraries=maps,marker&v=beta"></script>
+	<gmp-map center = "56.396003, -3.430990" zoom = "15" map-id = "DEMO_MAP_ID">
+		<gmp-advanced-marker position = "56.396003, -3.430990" title = "Santa"></gmp-advanced-marker>
+	</gmp-map>
+<div class="circle2"><img src="acousticsanta.png"></div> <h2 align="center" height="50vh" width="100%"> Ho Ho Ho!</h2>
+</body>
+</html>
